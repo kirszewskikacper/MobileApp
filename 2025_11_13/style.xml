@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Text">
+        <item name="android:background">#00ff00</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="Button">
+        <item name="android:textColor">#653265</item>
+        <item name="android:textSize">8sp</item>
+    </style>
+    <style name="kon">
+        <item name="android:background">#8732f3</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+</resources>
