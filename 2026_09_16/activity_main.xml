@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/LightBlue">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Urządzenia domowe"
+        android:layout_margin="5dp"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Autor: 12345678910"
+        android:layout_margin="5dp"
+        android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/pralka"
+                android:layout_margin="20dp"
+                android:layout_marginTop="0dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pralka"
+                    android:textSize="30sp"/>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:hint="Podaj nr prania 1..12"
+                    android:background="@color/SkyBlue"
+                    android:textColorHint="@color/Navy"
+                    android:textColor="@color/Navy"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Zatwierdź"
+                    android:backgroundTint="@color/RoyalBlue"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Numer prania: nie podano"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/odkurzacz"
+                android:layout_margin="20dp"
+                android:layout_marginTop="0dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Odkurzacz"
+                    android:textSize="30sp"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Włącz"
+                    android:backgroundTint="@color/RoyalBlue"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Odkurzacz wyłączony"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status: naładowany"/>
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
